@@ -1,0 +1,854 @@
+<html>
+<head>
+<title>
+SWACHH BHARAT - HOME</title>
+<style>
+*
+{
+margin:0 auto;
+padding:0;
+}
+body {
+background:url("bg.jpg")fixe
+d; background-size:cover;
+background-repeat:no-repeat; backgroundposition:center;
+width:1000px;
+opacity:1;
+font:normal .85em 'trebuchet ms',Arial; margintop:50px;
+color:#545454;
+}
+nav {
+height:56px;
+background:#f7f4f6; padding:0
+40px; border-radius:28px 28px 0 0;
+}
+nav a {
+float:left; padding:17px
+24px; text-decoration:none; texttransform:uppercase; font-size:14px;
+font-weight:bold;
+color:#545454; border-radius:0
+01.4em1.4em; borderright:2px solid#ebebeb;
+-moz-transition:all 1s ease-in-out;
+}
+nav a.active,nav a:hover {
+background:#0a617f;
+color:#fff;
+-moz-transition:all 1s ease-in-out;
+}
+.head {
+background:url("head.jpg");
+height:200px;
+}
+.left
+{
+background:#dcdcdc;
+width:150px;
+height:700px;
+text-align:center;
+float:left;
+padding:0 24px 0
+24px;
+}
+.left h2,p {
+margin-top:20px;
+}
+.left img { border-radius:18px 0
+18px 0 ; width:150px;
+height:150px;
+border:2px solid #0a617f;
+-moz-transition:all .70s ease-in-out;
+}
+.left img:hover {
+-moz-transition:all .70s ease-in-out;
+border-radius:50%; border:2px
+solid #0a617f;
+}
+.wrap {
+width:506px;
+height:700px;
+float:left;
+background:#fff;
+}
+article
+{
+width:470px; margin-top:20px;
+margin-left:20px; borderbottom:2px solid #ebebeb;
+}
+aside
+{
+width:295px;
+float:left;
+height:700px;
+background:#dcdcdc;
+}
+.right
+{
+margin-top:20px; textalign:center;
+}
+.right h2{
+margin-top:5px;
+}
+.log
+{
+width:270px;
+height:330px; border:1px
+solidgreen; box-shadow:0 0 5px
+0green; cursor:pointer;
+overflow:hidden;
+}
+.login
+{
+}
+-moz-transition:all 1s ease-in-out;
+width:200px;
+height:30px;
+border:5px solid #fff;
+.login:focus
+{
+}
+-moz-transition:all 1s ease-in-out;
+border:1px solid #f86806;
+.login:hover {
+box-shadow:0 0 5px 0 #f86806;
+}
+.button {
+height:30px;
+width:200px;
+-moz-transition:all .50s ease-in-out;
+border:3px solid #ebebeb;
+}
+.button:hover {
+background:#f86806;
+color:#fff;
+-moz-transition:all .50s ease-in-out;
+}
+a {
+text-decoration:none;
+-moz-transition:all .65s ease-in-out;
+}
+a:hover {
+color:green;
+-moz-transition:all .65s ease-in-out;
+}
+footer {
+padding:15px; textalign:center; font-size:14px;
+border-radius:0 0 28px 28px;
+background:#fff;
+margin-bottom:50px;
+color:#0a617f;
+}
+.search {
+border:3px solid #ebebeb;
+height:40px;
+width:240px;
+-moz-transition:all .2s ease-in-out;
+background:url("search.png") no-repeat;
+}
+.search:focus {
+border:3px solid #ebebeb;
+height:40px;
+width:240px;
+background:none;
+-moz-transition:all 2s ease-in-out;
+}
+.search:hover {
+-moz-transition:all1sease-in-out; boxshadow:0 0 5px 0pxgreen;
+}
+.donation-container {
+height: 1000px; font-family:
+'Montserrat', sans-serif; fontweight: 500;
+font-size:12px; texttransform: uppercase; margintop:0px;
+}
+.donation-box {
+width:270px; height:
+330px; background-color:#F5F5F5;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+-webkit-transition: all 0.15s ease-out;
+-moz-transition: all0.15sease-out; -
+o-transition: all 0.15s ease-out; transition: all
+0.15sease-out;
+}
+.donation-box .title {
+background-color:
+#C1D82F; width: 100%;
+border-top-left-radius:4px; border-top-rightradius:4px;
+color: white; textalign: center;
+padding-top: 12px;
+paddingbottom: 12px;
+font-size:15px;
+}
+.donation-box .donate-button {
+background-color:
+#C1D82F; width:100%;
+color:
+white; text-align: center;
+padding-top: 12px;
+padding-bottom: 12px;
+font-size: 18px;
+bottom:0px; position:
+absolute; cursor:pointer;
+font-weight: 800;
+}
+.donation-box .fields {
+width: 94%;
+display: block;
+position:
+absolute; top: 56px;
+left:7px;
+}
+.donation-box .fields input {
+width:90%; fontsize: 17px;
+padding: 10px; borderradius: 4px; border-width:
+0px; color: #5C5C5C;
+font- family: 'Montserrat',
+sans- serif; font-weight:
+500;
+margin-bottom: 10px;
+-webkit-font-smoothing: antialiased;
+}
+::-webkit-input-placeholder {
+color: #cdcdcd; font-size:
+15px;
+}
+:-moz-placeholder { /* Firefox 18-
+*/ color: #cdcdcd; font-size:15px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+color: #cdcdcd; font-size:15px;
+}
+:-ms-input-placeholder {
+color: #cdcdcd; font-size:
+15px;
+}
+.checkboxes {
+position:
+absolute; top:
+220px; left: 45px;
+}
+.checkboxes label {
+position: relative;
+top: 0px;
+font-size: 13px;
+color: gray;
+}
+.checkbox {
+-webkit-appearance: none;
+background-color: #fafafa;
+border: 1px solid
+#C1D82F; padding: 9px;
+borderradius:3px; display: inlineblock; position: relative;
+outline:none;
+-webkit-transition: all 0.15s ease-out;
+-moz-transition: all0.15sease-out; -
+o-transition: all 0.15s ease-out; transition: all
+0.15sease-out;
+}
+.checkbox:active, .checkbox:checked:active {
+}
+.checkbox:checked {
+background-color:
+#C1D82F; border: 1px solid
+#C1D82F; color: white;
+}
+.checkbox:checked:after {
+content: '\2714';
+font-size: 14px;
+position:
+absolute; top: 0px;
+left:3px;
+color: white;
+}
+.confirm {
+display: none;
+position:
+absolute; top:
+335px; left: 15px;
+right: 15px;
+font-size:
+16px;
+-webkit-transition: all 0.15s ease-out;
+-moz-transition: all0.15sease-out; -
+o-transition: all 0.15s ease-out; transition: all
+0.15sease-out;
+}
+.confirm i {
+font-weight:bold; textdecoration: underline; font-style:normal;
+}
+::placeholder {
+color: red;
+}
+</style>
+</head>
+<body>
+<nav>
+<a href="index.htm" class=active>Home</a>
+<a href="about.htm">about</a>
+<a href="gallery.htm">gallery</a>
+<a href="contact.htm">CLEAN CALL</a>
+</nav>
+<div class="head">
+</div>
+<div class="left">
+<h2>Spotlight</h2>
+<br>
+<img src="https://iascurrent.com/wp-content/uploads/2017/06/Sample31-696x392.jpg">
+<p>PM Modi's ambitious Swachh Bharat scheme aims to develop clean and hygienic
+surroundings in Indian villages and cities. </p>
+<br><br>
+<img
+src="https://swachhbharat.mygov.in/sites/all/themes/swachhbharat/assets/images/gandhi-ji.jpg">
+<p>Contribute in making India clean by the 150th birth anniversary of Mahatma
+Gandhi..</p>
+</div>
+<div class="wrap">
+<article>
+<img height=250 width=450
+src="http://swachhbharatmission.gov.in/SBMCMS/writereaddata/images/aboutus.jpg">
+<p ><em> <font color=green>Swachhata Hi Seva</font></em>. To accelerate the efforts to achieve
+universal sanitation coverage and to put focus on sanitation, the Prime Minister of India, Shri
+Narendra Modi, launched the Swachh Bharat Mission on 2nd October, 2014. The Mission Coordinator
+shall be Secretary, Ministry of Drinking Water and Sanitation (MDWS) with two Sub- Missions – the
+Swachh Bharat Mission (Gramin) and the Swachh Bharat Mission (Urban). The Mission aims to
+achieve a Swachh Bharat by 2019, as a fitting tribute to Mahatma Gandhi on his 150th birth
+anniversary.
+</p>
+<br>
+<img src="arrow.png" height=15 width=15> <a
+href="https://drive.google.com/drive/folders/0B_844xS4yWXeUhhN1dVQVBEMm8" target="_blank">Download Swachh Bharat
+Ringtone</a><br>
+<img src="arrow.png" height=15 width=15> <a
+href="http://msbm.gov.in/Public/Home.aspx"target="_blank">Download SBM Mobile
+App</a>
+<br><br>
+<table width=506>
+<tr>
+<td valign=top style="margin:20px;border:1px solid grey;">
+<center>
+<h2 style="margin-top:5px;color:red;">
+STRATEGY
+</h2>
+<font size=2><p style="margin:5px;">
+The focus of the Strategy is to move towards a 'Swachh Bharat' by providing flexibility to
+State governments, as sanitation is a State subject, to decide on their implementation
+policy,taking into account State specific requirements.
+</p></font></center>
+</td>
+<td width=25>
+</td>
+<td valign=top style="margin:20px;border:1px solid grey;"><center>
+<h2 style="margin-top:5px;color:red;">
+VISION
+</h2>
+<font size=2><p style="margin:5px;">
+The aim of Swachh Bharat Mission (Gramin) is to achieve a clean and Open Defecation Free
+(ODF) India by 2nd October, 2019
+</p></center></font>
+</td>
+<td width=25>
+</td>
+<td width=25>
+</td>
+</tr></table>
+<br><br>
+</article>
+</div>
+<aside>
+<div class="right">
+<div class="log">
+<div class="donation-container">
+<div class="donation-box">
+<div class="title"><b>BECOME A <strong>VOLUNTEER</strong></b></div>
+<div class="fields">
+<form method="post" action="insert.php">
+<input type="text" id="fullname" name="fullname" placeholder="Full Name"> </input>
+<input type="text" id="email" name="email" placeholder="Email"> </input>
+<input type="text" id="pno" name="pno" placeholder="Mobile Number">
+</input>
+</div>
+<div class="checkboxes">
+<input type="checkbox" id="anon" class="checkbox" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="anon">Send
+Notifications</label>
+<br /><br />
+<input type="checkbox" id="list" class="checkbox" />
+&nbsp;&nbsp;<label for="list">Add Me To Email List</label>
+</div>
+<div class="confirm">
+</div>
+<div class="donate-button"><i class="fa fa-credit-card"></i><input
+type="submit" value="">JOIN NOW</input></form></div>
+</div>
+</div>
+</div><br><br><form action="about.htm">
+<inputtype="text"placeholder=" Looking for something? " name=q
+class=search size=20></form><br><br>
+<h2 ><img src="globe.png" height=20 width=20>OBJECTIVES</h2><br>
+<marquee direction=up scrollamount=3 width=200 height=170>
+<img src="arrow.png" height=15 width=15> To bring about an improvement in the general quality of
+life in the rural areas, by promoting cleanliness, hygiene and eliminating open defecation<br><br>
+<img src="arrow.png" height=15 width=15> To accelerate sanitation coverage in rural areas to
+achieve the vision of Swachh Bharat by 2nd October 2019.<br><br>
+<img src="arrow.png" height=15 width=15> To encourage cost effective and appropriate
+technologies for ecologically safe and sustainable sanitation.
+</marquee>
+<br><br>
+</div>
+</aside>
+<footer>
+Created by rohini and nivedha Powered by VIT &copy;
+</footer>
+</body>
+</html>
+<html>
+<head>
+<title>
+SWACHH BHARAT - HOME</title>
+<style>
+*
+{
+margin:0 auto;
+padding:0;
+}
+body { background:url("bg.jpg")fixed;
+background-size:cover;
+background-repeat:no-repeat; backgroundposition:center;
+width:1000px;
+opacity:1;
+font:normal .85em 'trebuchet ms',Arial; margintop:50px;
+color:#545454;
+}
+nav {
+height:56px;
+background:#f7f4f6; padding:0
+40px; border-radius:28px 28px 0 0;
+}
+nav a {
+float:left;
+padding:17px24px; textdecoration:none; texttransform:uppercase; fontsize:14px;
+font-weight:bold;
+color:#545454; border-radius:0
+0 1.4em 1.4em; border-right:2px
+solid#ebebeb;
+-moz-transition:all 1s ease-in-out;
+}
+nav a.active,nav a:hover {
+background:#0a617f;
+color:#fff;
+-moz-transition:all 1s ease-in-out;
+}
+.head {
+background:url("head.jpg");
+height:200px;
+}
+.left
+{
+background:#dcdcdc;
+width:150px;
+height:700px;
+text-align:center;
+float:left;
+padding:0 24px 0
+24px;
+}
+.left h2,p {
+margin-top:20px;
+}
+.left img {
+border-radius:18px 0 18px 0 ;
+width:150px;
+height:150px;
+border:2px solid green;
+-moz-transition:all .70s ease-in-out;
+}
+.left img:hover {
+-moz-transition:all .70s ease-in-out;
+border-radius:50%; border:2px
+solid green;
+}
+.wrap
+{
+width:800px;
+height:700px;
+float:left;
+background:#fff;
+}
+article
+{
+width:750px; margin-top:20px;
+margin-left:20px; borderbottom:2px solid #ebebeb;
+}
+aside { width:295px;
+float:left;
+}
+.right
+{
+height:700px; background:#dcdcdc;
+margin-top:20px; textalign:center;
+}
+.right h2{
+margin-top:5px;
+}
+.log
+{
+width:250px; height:30px;
+border:1px solidgreen;
+box-shadow:0 0 5px 0
+green; cursor:pointer;
+overflow:hidden;
+-moz-transition:all 1s ease-in-out;
+}
+.log:hover {
+-moz-transition:all 1s ease-in-out;
+height:200px; border:1px
+solid #f86806; box-shadow:0 0 5px
+0 #f86806;
+}
+.login
+{
+}
+width:200px;
+height:30px;
+border:5px solid #fff;
+.login:focus {
+-moz-transition:all 1s ease-in-out;
+border:1px solid #f86806;
+}
+.login:hover {
+box-shadow:0 0 5px 0 #f86806;
+}
+.button {
+height:30px;
+width:200px;
+border:3px solid #ebebeb;
+}
+.button:hover {
+background:lightblue;
+-moz-transition:all .50s ease-in-out;
+}
+a {
+text-decoration:none;
+-moz-transition:all .65s ease-in-out;
+}
+a:hover {
+color:green;
+-moz-transition:all .65s ease-in-out;
+}
+footer {
+padding:15px; textalign:center; font-size:14px;
+border-radius:0 0 28px 28px;
+background:#fff;
+margin-bottom:50px;
+color:green;
+}
+.gallery img
+{
+width:200px;
+height:200px;
+border:8px solid #ebebeb;
+-moz-transition:all .90s ease-in-out;
+}
+.gallery img:hover {
+-moz-transition:all 1s ease-in-out;
+-moz-transform:scale(2);
+}
+</style>
+</head>
+<body>
+<nav>
+<a href="index.htm">Home</a>
+<ahref="about.htm">about</a>
+<a href="gallery.htm" class=active>gallery</a>
+<a href="contact.htm">CLEAN CALL</a>
+</nav>
+<div class="head">
+</div>
+<div class="left">
+<h2>Spotlight</h2>
+<br>
+<img src="https://iascurrent.com/wp-content/uploads/2017/06/Sample31-696x392.jpg">
+<p>PM Modi's ambitious Swachh Bharat scheme aims to develop clean and hygienic
+surroundings in Indian villages and cities. </p>
+<br><br>
+<img
+src="https://swachhbharat.mygov.in/sites/all/themes/swachhbharat/assets/images/gandhi-ji.jpg">
+<p>Contribute in making India clean by the 150th birth anniversary of Mahatma
+Gandhi..</p>
+</div>
+<div class="wrap">
+<article>
+<h2><fontcolor=green>GALLERY-</font></h2>
+<p> Take a view at the beautiful photos of this season's ISL.</p><br><br>
+<div class="gallery">
+<center>
+<img src="http://164.100.228.143/sbm/home/images/top-cities/Indore.jpg">
+<img src="http://164.100.228.143/sbm/home/images/top-cities/Bhopal.jpg">
+<img src="http://164.100.228.143/sbm/home/images/top-cities/Chandigarh.jpg"><br><br> <br>
+</div><br>
+<center>
+<img src="arrow.png" height=15 width=15> <a target="_download"
+href="images.zip">Download the images in whole.</a><br>
+</center></center>
+<br><br>
+</article>
+</div>
+<footer>
+Created by rohini and nivedha| Powered by VIT &copy;
+</footer>
+</body>
+</html>
+<html>
+<head>
+<title>
+SWACHH BHARAT - HOME</title>
+<style>
+*
+{
+margin:0 auto;
+padding:0;
+}
+body { background:url("bg.jpg")fixed;
+background-size:cover;
+background-repeat:no-repeat; backgroundposition:center;
+width:1000px;
+opacity:1;
+font:normal .85em 'trebuchet ms',Arial; margintop:50px;
+color:#545454;
+}
+nav
+{
+height:56px;
+background:#f7f4f6;
+padding:0 40px;
+border-radius:28px 28px 0 0 ;
+}
+nav a {
+float:left; padding:17px
+24px; text-decoration:none; texttransform:uppercase; font-size:14px;
+font-weight:bold;
+color:#545454; border-radius:0
+01.4em1.4em; borderright:2px solid#ebebeb;
+-moz-transition:all 1s ease-in-out;
+}
+nav a.active,nav a:hover {
+background:#0a617f;
+color:#fff;
+-moz-transition:all 1s ease-in-out;
+}
+.head {
+background:url("head.jpg"); height:200px;
+}
+.left
+{
+background:#dcdcdc;
+width:150px;
+height:1000px;
+text-align:center;
+float:left;
+padding:0 24px 0
+24px;
+}
+.left h2,p {
+margin-top:20px;
+}
+.left img {
+border-radius:18px 0 18px 0 ;
+width:150px;
+height:150px;
+border:2px solid
+#0a617f;
+-moz-transition:all .70s ease-in-out;
+}
+.left img:hover {
+-moz-transition:all .70s ease-in-out; borderradius:50%; border:2px solid#0a617f;
+}
+.wrap { width:705px;
+height:300px
+;
+float:left;
+background:#fff;
+}
+article
+{
+width:470px; margin-top:20px;
+margin-left:22px; borderbottom:2px solid #ebebeb;
+}
+aside
+{
+width:295px;
+float:left;
+height:800px;
+background:#dcdcdc;
+}
+.right {
+margin-top:20px; textalign:center;
+}
+.right h2{
+margin-top:5px;
+}
+.log
+{
+}
+width:250px;
+height:30px;
+border:1px solid green;
+box-shadow:0 0 5px 0 green;
+cursor:pointer;
+overflow:hidden;
+-moz-transition:all 1s ease-in-out;
+.log:hover {
+-moz-transition:all 1s ease-in-out;
+height:220px; border:1px
+solid #f86806; box-shadow:0 0 5px 0
+#f86806;
+}
+.login
+{
+}
+width:200px;
+height:30px;
+border:5px solid #fff;
+.login:focus {
+-moz-transition:all 1s ease-in-out;
+border:1px solid #f86806;
+}
+.login:hover {
+box-shadow:0 0 5px 0 #C1D82F;
+}
+.button {
+height:30px;
+width:200px;
+-moz-transition:all .50s ease-in-out;
+border:3px solid #ebebeb;
+}
+.button:hover {
+background:#C1D82F
+; color:#fff;
+-moz-transition:all .50s ease-in-out;
+}
+a {
+text-decoration:none;
+-moz-transition:all .65s ease-in-out;
+}
+a:hover {
+color:green;
+-moz-transition:all .65s ease-in-out;
+}
+footer {
+padding:15px; textalign:center; font-size:14px;
+border-radius:0 0 28px 28px;
+background:#fff;
+}
+.im
+{
+margin-bottom:50px;
+color:green;
+border:6px solid grey;
+-moz-transition:all .50s ease-in-out;
+}
+img:hover {
+-moz-transition:all .50s ease-in-out;
+border:6px solid #ebebeb;
+}
+</style>
+</head>
+<body>
+<nav>
+<a href="index.htm">Home</a>
+<a href="about.htm" class=active>about</a>
+<a href="gallery.htm">gallery</a>
+<a href="contact.htm">CLEAN CALL</a>
+</nav>
+<div class="head">
+</div>
+<div class="wrap">
+<article>
+<br><br>
+<table width=600>
+<tr>
+<td valign=top style="margin:20px;border:1px solid grey;">
+<center>
+<h2 style="margin-top:5px;color:red;">
+SWACHH SURVEKSHAN
+</h2>
+<font size=2><p style="margin:5px;"><img height=330px target="_blank" width=650px
+src="http://164.100.228.143:8080/sbm/content/Banner/Web_Banner_01_22_Oct_2018_15_00_00.
+jpg">
+</p></font></center>
+</td>
+<td width=25>
+</td>
+<td width=25>
+</td>
+<td width=25>
+</td>
+</tr>
+</table><br>
+<p ><em>Welcome to <font color=green>SWACHHBHARAT.IN</font></em>. A clean India
+would be the best tribute India could pay to Mahatma Gandhi on his 150 birth anniversary in 2019,”
+said Shri Narendra Modi as he launched the Swachh Bharat Mission at Rajpath in New Delhi. On 2nd
+October 2014, Swachh Bharat Mission was launched throughout length and breadth of the country as
+a national movement. The campaign aims to achieve the vision of a ‘Clean India’ by 2nd October
+2019.
+<br><br>
+<table width=506>
+<tr>
+<td valign=top style="margin:20px;border:1px solid grey;">
+<center>
+<h2 style="margin-top:5px;color:red;">
+STRATEGY
+</h2>
+<font size=2><p style="margin:5px;">
+The focus of the Strategy is to move towards a 'Swachh Bharat' by providing flexibility to
+State governments, as sanitation is a State subject, to decide on their implementation
+policy,taking into account State specific requirements.
+</p></font></center>
+</td>
+<td width=25>
+</td>
+<td valign=top style="margin:20px;border:1px solid grey;"><center>
+<h2 style="margin-top:5px;color:red;">
+VISION
+</h2>
+<font size=2><p style="margin:5px;">
+The aim of Swachh Bharat Mission (Gramin) is to achieve a clean and Open Defecation Free
+(ODF) India by 2nd October, 2019
+</p></center></font>
+</td>
+<td width=25>
+</td>
+<td width=25>
+</td>
+</tr>
+</table><br><br>
+</article>
+</div>
+<aside>
+<div class="right">
+<div class="log">
+<h2><img src="user.png" height=20 width=20> JOIN NOW</h2><br>
+<inputtype="text"class=loginplaceholder="Enteryourname"required=""size=20><br><br>
+<inputclass=logintype="text"placeholder="Enteryouremail"required=""size=20><br><br>
+<input type="text" class=login placeholder="Enter your phn no" required="" size=20><br><br>
+<input class=button type="submit" value="JOIN">
+</div><br><br>
+<h2><img src="globe.png" height=20 width=20> Latest News</h2><br>
+<marquee direction=up scrollamount=3 width=200 height=170>
+<img src="arrow.png" height=15 width=15> To bring about an improvement in the general quality of
+life in the rural areas, by promoting cleanliness, hygiene and eliminating open defecation<br><br>
+<img src="arrow.png" height=15 width=15> To accelerate sanitation coverage in rural areas to
+achieve the vision of Swachh Bharat by 2nd October 2019.<br><br>
+<img src="arrow.png" height=15 width=15> To encourage cost effective and appropriate
+technologies for ecologically safe and sustainable sanitation.
+</marquee>
+<br><br>
+</div>
+</aside>
+<footer>
+Created by sriman and harish| Powered by VIT &copy;
+</footer>
+</body>
+</html>
